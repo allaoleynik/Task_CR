@@ -1,0 +1,58 @@
+#wrapper{	
+	margin: 10px;
+}
+#location{
+	position: relative;
+	width: 65%;
+	height: 70px;
+	padding: 10px;
+	border: 1px solid #111111;
+	font-size: 16px;
+}
+#time-wrapper{
+	position: absolute;
+	left: 66%;
+	top: 10px;
+	width: 30%;
+	height: 70px;
+	padding: 10px;
+	border: 1px solid #111111;	
+	font-size: 16px;
+}
+#map{
+	position: relative;
+	margin-top: 10px;
+	width: 65%;
+	height: 487px;
+}
+#people, #count-people{
+	position: absolute;
+	left: 66%;
+	top: 90px;
+	width: 30%;	
+	border: 1px solid #111111;
+}
+#people{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#count-people{	
+	text-align: center;
+	margin-top: 453px;
+	padding: 5px;
+	font-size: 16px;
+}
+.people-block{
+	width: 95%;
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #111111;
+	border-radius: 10px;
+	font-size: 20px;
+}
+.header :first-child{
+ 	font-weight: bold;
+}
+.header :last-child{
+	font-style: italic;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Watching ISS</title>
+	<script
+  	src="http://code.jquery.com/jquery-2.2.4.min.js"
+ 	integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  	crossorigin="anonymous"></script>
+  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div class="header" id="location">
+			<p>ISS is now located at:</p>
+			<div id="long_lat"></div>
+		</div>
+		<div class="header" id="time-wrapper">
+			<p>Current UTC time: <span id="time"></span></p>
+			<div id="date"></div>
+		</div>
+		<div id="map"></div>
+		<div id="people"></div>	
+		<div id="count-people"></div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd5rvFocNb_zkG9WFiOZM99f4f736eqy8&callback=initMap">
+    </script>
+    <script type="text/javascript" src="js/currentLocation.js"></script>
+    <script type="text/javascript" src="js/currentTime.js"></script>
+    <script type="text/javascript" src="js/initMap.js"></script>
+    <script type="text/javascript" src="js/peopleInSpace.js"></script>
+    <script type="text/javascript" src="js/Interval.js"></script>
+	</div>
+</body>
+</html>
